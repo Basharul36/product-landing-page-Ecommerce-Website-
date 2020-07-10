@@ -1,0 +1,135 @@
+body{
+  font-family:monospace;
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  overflow: hidden;
+  width:1350px;
+  background-color: white;
+  padding:1em;
+}
+p{
+  font-size: 15px;
+}
+label{
+  font-size: 15px;
+}
+section{
+  margin:50px;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+#header-img {
+  width: 140px;
+  height: 140px;
+  padding:0;
+  margin:0;
+}
+
+nav a{
+  text-decoration: none;
+  color:white;
+}
+#nav-bar
+{
+  display: grid;
+  background-color: rgb(95, 95, 95);
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+.nav-link
+{
+padding:1em;
+display: inline-block;
+background-color: #4CAF50;
+}
+#aboutus {
+  background-color: #444;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1589995186011-a7b485edc4bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-size:cover;
+  background-blend-mode: multiply;
+  text-align: center;
+}
+#productvideo {
+  background-color: #444;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1507652293928-cb2ec56f4451?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size:cover;
+  background-blend-mode: multiply;
+  text-align: center;
+}
+#pricing {
+  background-color: #444;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1451958683454-47a7f2adc864?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size:cover;
+  background-blend-mode: multiply;
+  text-align: center;
+}
+#subscribe
+{
+  background-color: #444;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size:cover;
+  background-blend-mode: multiply;
+  text-align: center;
+}
+#email
+{
+  width:300px;
+  height:30px;
+  font-family: monospace;
+  border: 1px solid white;
+}
+#productvideo
+{
+}
+#product-name
+{
+  background-color: rgb(241,241,241);
+  color:black;
+  padding:5px 0;
+  width:100%;
+}
+#pricing-items
+{
+  border:1px solid black;
+}
+#button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 16px;
+}
+#button a{
+  color:white;
+  text-decoration: none;
+}
+#submit {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 16px;
+}
+#footer
+{
+  background-color: rgb(97,97,97);
+  padding:1em;
+  margin: 50px;
+  color:white;
+  text-align: right;
+}

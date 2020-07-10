@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/product.css">
+    <title>Drive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+      /* For desktop: */
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+      }
+      .flex-container {
+        display: flex;
+        flex-flow:row wrap;
+        justify-content:space-around;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <center>
+        <img id="header-img" src="https://www.freelogodesign.org/file/app/client/thumb/3fb1cc95-7d5a-47bf-970a-b9b45567c32b_200x200.png?1594273764505">
+        <nav id="nav-bar">
+          <a class="nav-link" href="#aboutus">About us</a>
+          <a class="nav-link" href="#productvideo">Product Video</a>
+          <a class="nav-link" href="#pricing">Pricing</a>
+          <a class="nav-link" href="#subscribe">Subscribe</a>
+        </nav>
+      </center>
+    </header><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <section id="aboutus">
+        <center><h1>About Us</h1></center>
+        <br><br><br><br>
+        <h1>Best Storage Device Distributors</h1>
+        <p>The World's most trusted Website for buying Storage Devices</p>
+        <br><br><br><br>
+      </section>
+      <section id="productvideo">
+        <center><h1>Product Video</h1></center><br><br><br><br>
+        <div class="flex-container">
+          <div id="hddvideo">
+            <p>Hard Disk Drive</p>
+            <iframe id="video" width="350" height="250" src="https://www.youtube.com/embed/1CvxAYwRsio" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div id="ssdvideo">
+            <p>Solid State Drive</p>
+            <iframe id="video" width="350" height="250" src="https://www.youtube.com/embed/-9So6n85_tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div id="cloudvideo">
+            <p>Cloud Storage Drive</p>
+            <iframe id="video" width="350" height="250" src="https://www.youtube.com/embed/Cp10_PygJ4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        </section>
+        <section id="pricing">
+          <center><h1>Pricing</h1></center><br><br><br><br>
+          <div class="flex-container">
+            <div id="pricing-items">
+              <div id="product-name"><h3>Western Digital External Harddisk</h3></div>
+                <div class="flex-container">
+                  <div><h3>500GB</h3><br><h3>₹3000</h3></div>
+                  <div><h3>1TB</h3><br><h3>₹6000</h3></div>
+                  <div><h3>2TB</h3><br><h3>₹10000</h3></div>
+                </div>
+                <center><button id="button"><a href="https://www.amazon.in/Western-Digital-Elements-Portable-External/dp/B008GS8LT0">Buy</a></button></center>
+            </div>
+            <div id="pricing-items">
+              <div id="product-name"><h3>Samsung Solid State Drive</h3></div>
+                <div class="flex-container">
+                  <div><h3>500GB</h3><br><h3>₹6000</h3></div>
+                  <div><h3>1TB</h3><br><h3>₹12000</h3></div>
+                  <div><h3>2TB</h3><br><h3>₹18000</h3></div>
+                </div>
+                <center><button id="button"><a href="https://www.amazon.in/Samsung-SSD-850-250GB-MZ-75E250BW/dp/B00OAJ412U">Buy</a></button></center>
+            </div>
+            <div id="pricing-items">
+              <div id="product-name"><h3>Google Cloud Unlimited Storage</h3></div>
+                <div class="flex-container">
+                  <div><h3>100GB</h3><br><h3>₹1300/Year</h3></div>
+                  <div><h3>200GB</h3><br><h3>₹2400/Year</h3></div>
+                  <div><h3>2TB</h3><br><h3>₹6500/Year</h3></div>
+                </div>
+                <center><button id="button"><a href="https://one.google.com/storage?i=m&utm_source=drive&utm_medium=web&utm_campaign=widget_normal#upgrade">Buy</a></button></center>
+            </div>
+          </div>
+        </section>
+        <section id="subscribe">
+          <center>
+            <h1>Subscribe us for more offers!!</h1><br><br><br>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <label id="name">Email ID:
+              <input type="email" id="email" name="email" placeholder="Enter Your Email Id"></input><br><br><br><br>
+              <input type="submit" id="submit">
+            </form>
+          </center>
+        </section>
+        <footer id="footer">
+          <p>While using this site, you agree to have read and accepted our <u>terms of use</u>, <u>cookie</u> and <u>privacy policy</u>.
+<u>Copyright 1999-2020</u> by Refsnes Data. <u>All Rights Reserved</u>.<b>Powered by Freecodecamp</b>.</p>
+        </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  </body>
+</html>
